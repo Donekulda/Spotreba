@@ -1,0 +1,328 @@
+body {
+    background-color: gray;
+    position: relative;
+    top: 0px;
+    margin: 0;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Topnav */
+
+ul.topnav {
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    position: sticky;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+
+/* Sub-Topnav */
+
+ul.sub-topnav {
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    position: sticky;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+ul.sub-topnav li {
+    float: left;
+}
+
+ul.sub-topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 13px;
+    text-decoration: none;
+}
+
+ul.sub-topnav li a:hover {
+    background-color: white;
+    color: #111;
+}
+
+ul.sub-topnav li a.active {
+    background-color: #333;
+}
+
+ul.sub-topnav li.right {
+    float: right;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+table.grafy {
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    width: 100%;
+}
+
+table.grafy img {
+    max-width: 100%;
+    height: auto;
+}
+
+table.grafy td,
+th {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.settings {
+    float: left;
+    max-width: 275px;
+    width: 100%;
+    text-align: center;
+}
+
+.settings div {
+    background-color: #aaaaaa;
+    padding: 5px;
+}
+
+.settings select {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 10px 0px;
+    padding: 12px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+
+.isa_info i,
+.isa_success i,
+.isa_warning i,
+.isa_error i {
+    margin: 10px 22px;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+table.profil {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+table.profil img {
+    max-width: 100%;
+    height: auto;
+}
+
+table.profil td,
+th {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+table.zmena {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 80%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+table.zmena td,
+th {
+    max-width: 100%;
+    height: auto;
+    border-left: 1px solid black;
+}
+
+.zmena .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the form icons */
+.zmena .icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.zmena .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.zmena .input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+
+/* Set a style for the submit button */
+.zmena .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+ .zmena .btn:hover {
+    opacity: 1;
+  }
